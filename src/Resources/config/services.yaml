@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    MonsieurBiz\SyliusCmsBlockPlugin\:
+        resource: '../../*'
+        exclude: '../../{Entity,Migrations}'
+
+    MonsieurBiz\SyliusCmsBlockPlugin\Controller\:
+        resource: '../../Controller'
+        tags: [ 'controller.service_arguments' ]
+

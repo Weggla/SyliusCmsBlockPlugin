@@ -1,0 +1,2 @@
+imports:
+   resource: '@MonsieurBizSyliusCmsBlockPlugin/Resources/config/routes.yaml'

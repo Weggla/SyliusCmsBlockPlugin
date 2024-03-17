@@ -1,0 +1,6 @@
+suites:
+    main:
+        namespace: MonsieurBiz\SyliusCmsBlockPlugin
+        psr4_prefix: MonsieurBiz\SyliusCmsBlockPlugin
+        src_path: src
+        spec_path: tests
