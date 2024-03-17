@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "MonsieurBiz\\SyliusCmsBlockPlugin\\SyliusCmsBlockPlugin": [
+        "MonsieurBiz\\SyliusCmsBlockPlugin\\MonsieurBizSyliusCmsBlockPlugin": [
             "all"
         ]
     },
