@@ -1,0 +1,18 @@
+sylius_fixtures:
+    suites:
+        default:
+            fixtures:
+                monsieurbiz_cms_block:
+                    options:
+                        custom:
+                            -   code: 'test-block'
+                                enabled: true
+                                translations:
+                                    en_US:
+                                        name: 'Test Block'
+                                        content: |
+                                            [{"code":"monsieurbiz.text","data":{"content":"<h2>CMS Example block</h2>","align":""}}]
+                                    fr_FR:
+                                        name: 'Block Test'
+                                        content: |
+                                            [{"code":"monsieurbiz.text","data":{"content":"<h2>CMS Example block</h2>","align":""}}]

@@ -12,3 +12,12 @@ services:
         resource: '../../Controller'
         tags: [ 'controller.service_arguments' ]
 
+    # Block Forms
+    MonsieurBiz\SyliusCmsBlockPlugin\Form\Type\BlockType:
+        arguments:
+            $dataClass: '%monsieurbiz_cms_block.model.block.class%'
+            $validationGroups: ['monsieurbiz']
+    MonsieurBiz\SyliusCmsBlockPlugin\Form\Type\BlockTranslationType:
+        arguments:
+            $dataClass: '%monsieurbiz_cms_block.model.block_translation.class%'
+            $validationGroups: ['monsieurbiz']

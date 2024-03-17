@@ -1,0 +1,17 @@
+monsieurbiz_cms_block:
+  ui:
+    blocks: "Blocs"
+    new_block: "Nouveau bloc"
+    edit_block: "Modifier le bloc"
+    cms_content: "Contenu CMS"
+    blocks_subheader: "Gestion des blocs CMS"
+    back_to_admin: "Retour à l'administration"
+    form:
+      block_info: 'Informations sur le bloc'
+      block_content: 'Contenu du bloc'
+      enabled: "Activé"
+      name: "Nom"
+      code: "Code"
+      content: "Contenu"
+    actions:
+      create: 'Créer un nouveau bloc'

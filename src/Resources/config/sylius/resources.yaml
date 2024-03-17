@@ -1,0 +1,12 @@
+sylius_resource:
+    resources:
+        monsieurbiz_cms_block.block:
+            classes:
+                model: MonsieurBiz\SyliusCmsBlockPlugin\Entity\Block
+                interface: MonsieurBiz\SyliusCmsBlockPlugin\Entity\BlockInterface
+                form: MonsieurBiz\SyliusCmsBlockPlugin\Form\Type\BlockType
+                repository: MonsieurBiz\SyliusCmsBlockPlugin\Repository\BlockRepository
+            translation:
+                classes:
+                    model: MonsieurBiz\SyliusCmsBlockPlugin\Entity\BlockTranslation
+                    interface: MonsieurBiz\SyliusCmsBlockPlugin\Entity\BlockTranslationInterface
