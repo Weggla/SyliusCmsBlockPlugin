@@ -2,7 +2,7 @@
     "name": "monsieurbiz/sylius-cms-block-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
-    "description": "",
+    "description": "Save rich editor contents in database and use it as UI Element",
     "license": "MIT",
     "require": {
         "monsieurbiz/sylius-rich-editor-plugin": "^2.0",
