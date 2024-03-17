@@ -1,6 +1,7 @@
 monsieurbiz_cms_block:
   ui:
     blocks: "Blocks"
+    block: "Block"
     new_block: "New block"
     edit_block: "Edit block"
     cms_content: "CMS content"
@@ -15,3 +16,7 @@ monsieurbiz_cms_block:
       content: "Content"
     actions:
       create: 'Create a new block'
+  ui_element:
+    block:
+      title: 'Block Element'
+      description: 'An element containing a CMS block'

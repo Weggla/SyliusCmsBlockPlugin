@@ -35,7 +35,7 @@ class BlockRepository extends EntityRepository implements BlockRepositoryInterfa
         /** @phpstan-ignore-next-line */
         return $this->createQueryBuilder('b')
             ->andWhere('b.code = :code')
-            ->andWhere('p.enabled = true')
+            ->andWhere('b.enabled = true')
             ->setParameter('code', $code)
             ->getQuery()
             ->getOneOrNullResult()

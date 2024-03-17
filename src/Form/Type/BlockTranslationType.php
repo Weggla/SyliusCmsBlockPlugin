@@ -30,6 +30,7 @@ class BlockTranslationType extends AbstractResourceType
             ->add('content', RichEditorType::class, [
                 'label' => 'monsieurbiz_cms_block.ui.form.content',
                 'locale' => $builder->getName(),
+                'tags' => ['-block'],
             ])
         ;
     }

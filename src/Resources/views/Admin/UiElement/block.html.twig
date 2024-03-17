@@ -1,0 +1,13 @@
+{#
+UI Element template
+type: block
+element fields:
+    block: text (Code of the block)
+element methods:
+    getBlock(block)
+#}
+
+{% set blockEntity = ui_element.getBlock(element.block) %}
+{% if blockEntity and blockEntity.enabled %}
+    {{ blockEntity.content|monsieurbiz_richeditor_render_field }}
+{% endif %}
